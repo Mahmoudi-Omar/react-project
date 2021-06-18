@@ -1,0 +1,55 @@
+.header {
+    background-image: url('./images/xhero_2.jpg.pagespeed.ic.fftRSJ7ugh.webp');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .overlay {
+        position: absolute;
+        background-color: #000;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: .4;
+    }
+    nav {
+        position: relative;
+        z-index: 2;
+    }
+    .logo {
+        margin-top: 41px;
+        color: #fff;
+    }
+    .menu {
+        margin-top: 41px;
+        ul {
+            display: flex;
+            list-style-type: none;
+            justify-content: flex-end;
+            li {
+                margin: 0 30px;
+                font-size: 20px;
+                color: #fff;
+            }
+        }
+    }
+    .Slogan {
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 2;
+        h4 {
+            font-size: 50px ;
+        }
+        p {
+            font-size : 19px;
+        }
+    }
+}
